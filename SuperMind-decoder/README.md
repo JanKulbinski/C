@@ -28,15 +28,26 @@ black: 1
 [1] [2] [2] [2]?
 
 white: 1
+
 black: 0
+
 [3] [1] [3] [3]?
+
 white: 1
+
 black: 1
+
 [3] [4] [1] [4]?
-2white: 2
+
+white: 2
+
 black: 2
+
 [3] [4] [4] [1]?
+
 white: 0
+
 black: 4
+
 I win
 
