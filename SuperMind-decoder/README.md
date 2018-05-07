@@ -15,13 +15,18 @@ kartce kod złożony z czterech cyfr. Program cyklicznie drukuje swoją
 propozycję kodu (cztery cyfry z zakresu od 1 do 6) i czeka na wprowadzenie
 przez kodera liczbę białych i liczbę czarnych cyfr.
 
-Przykłady
+Przykład
 W poniższym przykładzie program znalazł poprawny kod po zadaniu pięciu pytać:
 $ ./mastermind
+
 [1] [1] [1] [1]?
+
 white: 0
+
 black: 1
+
 [1] [2] [2] [2]?
+
 white: 1
 black: 0
 [3] [1] [3] [3]?
@@ -34,22 +39,4 @@ black: 2
 white: 0
 black: 4
 I win
-W tym przykładzie program wykrył po pięciu pytaniach, że koder oszukał go:
-$ ./mastermind
-[1] [1] [1] [1]?
-white: 0
-black: 1
-[1] [2] [2] [2]?
-white: 0
-black: 1
-[1] [3] [3] [3]?
-white: 0
-black: 1
-[1] [4] [4] [4]?
-white: 0
-black: 1
-[1] [5] [5] [5]?
-white: 1
-black: 0
-you are cheating!
-3
+
