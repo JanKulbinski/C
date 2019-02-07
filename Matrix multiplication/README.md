@@ -1,0 +1,1 @@
+The program multiplies two random matrices of any size n (the value taken from the command line) by itself and returns the time of doing this operation. Multiplication is done in diffrent ways. First multiplication is naive, second using transposition and third even more optimized for CPU cache
